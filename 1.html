@@ -1,0 +1,436 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Animales Acuáticos</title>
+
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+<style>
+    body { font-family: monospace; }
+    .hero { 
+        background: url('animales.jpg') no-repeat center center; 
+        background-size: cover; 
+        height: 400px; 
+        display: flex; 
+        justify-content: center; 
+        align-items: center; 
+        color: white; 
+        text-shadow: 2px 2px 4px #000; 
+    }
+    .section-title { text-align: center; margin: 20px 0; }
+
+    #carrusel-final .carousel-item img {
+        height: 250px;
+        object-fit: cover;
+    }
+    #carrusel-final .carousel-item .caption {
+        text-align: center;
+        margin-top: 10px;
+        font-weight: bold;
+        color: #000000;
+    }
+    .btn-custom {
+    background-color: #234b27;
+    color: rgb(255, 255, 255);              
+  } 
+</style>
+</head>
+<body>
+
+
+<nav>
+  <div class="nav-wrapper green darken-3">
+    <a href="#!" class="brand-logo" style="padding-left:15px;">Animales</a>
+    <ul id="nav-mobile" class="right hide-on-med-and-down">
+      <li><a href="#terrestres">Terrestres</a></li>
+      <li><a href="#acuaticos">Acuaticos</a></li>
+      <li><a href="#aereos">Aereos</a></li>
+      <li><a href="#carrusel-final">Galería</a></li>
+      <li><a href="#contacto">Contacto</a></li>
+    </ul>
+  </div>
+</nav>
+
+
+<div class="hero">
+  <div>
+    <h2>Mundo Animal</h2>
+  </div>
+</div>
+
+
+<div class="section" id="terrestres" style="background-color: #58B05F; padding: 30px;">
+  <h4 class="section-title"><b>TERRESTRES</b></h4>
+  <div class="row">
+    <div class="col s12 m3">
+      <div class="card">
+        <div class="card-image waves-effect waves-block waves-light">
+          <img class="activator" src="elefante.jpg" alt="Elefante">
+        </div>
+        <div class="card-content">
+          <span class="card-title activator grey-text text-darken-4">Elefante<i class="material-icons right">more_vert</i></span>
+        </div>
+        <div class="card-reveal">
+          <span class="card-title grey-text text-darken-4">Elefante<i class="material-icons right">close</i></span>
+          <p>Originario de África y la India, este mamífero cuadrúpedo de enorme tamaño y 
+            dieta vegetariana es célebre por su larga trompa con la que puede recoger 
+            objetos e incluso bañarse en pozos de agua. Muchas civilizaciones antiguas 
+            los usaron como tanques de guerra vivientes.</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="col s12 m3">
+      <div class="card">
+        <div class="card-image waves-effect waves-block waves-light">
+          <img class="activator" src="leon.jpg" alt="Leon">
+        </div>
+        <div class="card-content">
+          <span class="card-title activator grey-text text-darken-4">Leon<i class="material-icons right">more_vert</i></span>
+        </div>
+        <div class="card-reveal">
+          <span class="card-title grey-text text-darken-4">Leon<i class="material-icons right">close</i></span>
+          <p>El mayor carnívoro felino del planeta y el rey de la Sabana africana, este 
+            enorme animal de pelaje amarillento es un depredador nato que se halla en 
+            peligro de extinción. Los machos poseen una melena oscura característica.</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="col s12 m3">
+      <div class="card">
+        <div class="card-image waves-effect waves-block waves-light">
+          <img class="activator" src="osopanda.jpg" alt="Oso Panda">
+        </div>
+        <div class="card-content">
+          <span class="card-title activator grey-text text-darken-4">Oso Panda<i class="material-icons right">more_vert</i></span>
+        </div>
+        <div class="card-reveal">
+          <span class="card-title grey-text text-darken-4">Oso Panda<i class="material-icons right">close</i></span>
+          <p>Uno de los osos de pelaje más curioso del mundo: blanco y negro, y de dieta 
+            casi exclusiva a bambú, es quizá el más famoso animal asiático en vías de 
+            extinción. Suelen ser lentos, dormilones y cómodos, y pesan entre 70 y 100 
+            kilogramos.</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="col s12 m3">
+      <div class="card">
+        <div class="card-image waves-effect waves-block waves-light">
+          <img class="activator" src="orangutan.jpg" alt="Orangutan">
+        </div>
+        <div class="card-content">
+          <span class="card-title activator grey-text text-darken-4">Orangutan<i class="material-icons right">more_vert</i></span>
+        </div>
+        <div class="card-reveal">
+          <span class="card-title grey-text text-darken-4">Orangutan<i class="material-icons right">close</i></span>
+          <p>Especie de primates anaranjados de largo pelo, sumamente inteligentes y de 
+            hábitos arborícolas, se encuentran estrechamente emparentados con los seres 
+            humanos evolutivamente. De hábitos solitarios, poseen una dieta casi exclusiva 
+            de frutas, hojas y raíces.</p>
+        </div>
+      </div>
+    </div>
+ </div>
+</div>
+
+
+
+
+<div class="section" id="acuaticos" style="background-color: #0B1263; padding: 40px;">
+  <h4 class="section-title"><b>ACUATICOS</b></h4>
+  <div class="row">
+    <div class="col s12 m3">
+      <div class="card">
+        <div class="card-image waves-effect waves-block waves-light">
+          <img class="activator" src="delfin.jpg" alt="Delfín">
+        </div>
+        <div class="card-content">
+          <span class="card-title activator grey-text text-darken-4">Delfín<i class="material-icons right">more_vert</i></span>
+        </div>
+        <div class="card-reveal">
+          <span class="card-title grey-text text-darken-4">Delfín<i class="material-icons right">close</i></span>
+          <p>mamífero cetáceo marino conocido por su inteligencia y que habita en océanos y 
+            mares cálidos de todo el mundo. Se caracterizan por su cuerpo fusiforme, su 
+            habilidad para la ecolocalización para encontrar presas y su compleja 
+            comunicación mediante silbidos y chasquidos. Los delfines respiran aire a 
+            través de un espiráculo en la parte superior de su cabeza y son animales 
+            sociales que viven en grupos. </p>
+        </div>
+      </div>
+    </div>
+
+    <div class="col s12 m3">
+      <div class="card">
+        <div class="card-image waves-effect waves-block waves-light">
+          <img class="activator" src="ballena.jpg" alt="Ballena Azul">
+        </div>
+        <div class="card-content">
+          <span class="card-title activator grey-text text-darken-4">Ballena Azul<i class="material-icons right">more_vert</i></span>
+        </div>
+        <div class="card-reveal">
+          <span class="card-title grey-text text-darken-4">Ballena Azul<i class="material-icons right">close</i></span>
+          <p>es el animal más grande que jamás ha existido, con un cuerpo largo y esbelto de 
+            color azul grisáceo moteado, y puede medir hasta 33 metros y pesar más de 150 
+            toneladas. Se alimenta principalmente de kril, que atrapa con sus barbas en 
+            lugar de dientes, y es el animal más ruidoso del mundo, emitiendo sonidos de 
+            baja frecuencia que pueden escucharse a cientos de kilómetros. Es un mamífero 
+            de sangre caliente que respira aire a través de espiráculos en la parte superior
+             de su cabeza, y las hembras son generalmente más grandes que los machos. </p>
+        </div>
+      </div>
+    </div>
+
+    <div class="col s12 m3">
+      <div class="card">
+        <div class="card-image waves-effect waves-block waves-light">
+          <img class="activator" src="foca.jpg" alt="Foca">
+        </div>
+        <div class="card-content">
+          <span class="card-title activator grey-text text-darken-4">Foca<i class="material-icons right">more_vert</i></span>
+        </div>
+        <div class="card-reveal">
+          <span class="card-title grey-text text-darken-4">Foca<i class="material-icons right">close</i></span>
+          <p>Mamífero de la familia de los fócidos adaptado a vivir en el medio acuático, 
+            con el cuerpo alargado, fusiforme y cubierto de pelo generalmente corto y denso, 
+            una gruesa capa de grasa subcutánea, las extremidades anteriores cortas y 
+            aplanadas y las posteriores dirigidas hacia atrás, y sin pabellón auditivo.</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="col s12 m3">
+      <div class="card">
+        <div class="card-image waves-effect waves-block waves-light">
+          <img class="activator" src="tortuga.jpg" alt="Tortuga">
+        </div>
+        <div class="card-content">
+          <span class="card-title activator grey-text text-darken-4">Tortuga<i class="material-icons right">more_vert</i></span>
+        </div>
+        <div class="card-reveal">
+          <span class="card-title grey-text text-darken-4">Tortuga<i class="material-icons right">close</i></span>
+          <p>reptil vertebrado, caracterizado por su caparazón protector, un tronco ancho y 
+            corto, y la ausencia de dientes, aunque posee un pico fuerte para alimentarse. 
+            Habitan en una gran diversidad de ambientes, desde bosques y desiertos hasta 
+            lagos y océanos. Son animales ovíparos que ponen sus huevos en nidos terrestres 
+            y pueden ser herbívoras, carnívoras u omnívoras. </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+<div class="section" id="aereos" style="background-color: #BFF1FF; padding: 40px;">
+  <h4 class="section-title"><b>AEREOS</b></h4>
+  <div class="row">
+    <div class="col s12 m3">
+      <div class="card">
+        <div class="card-image waves-effect waves-block waves-light">
+          <img class="activator" src="colibri.jpg" alt="Colibri">
+        </div>
+        <div class="card-content">
+          <span class="card-title activator grey-text text-darken-4">Colibri<i class="material-icons right">more_vert</i></span>
+        </div>
+        <div class="card-reveal">
+          <span class="card-title grey-text text-darken-4">Colibri<i class="material-icons right">close</i></span>
+          <p>También conocido como “picaflor”, es el ave más pequeña del mundo, dentro del 
+            grupo de los vertebrados. Sus alas pueden moverse entre veinte y cien veces por 
+            segundo y, cuando el macho quiere impresionar a una hembra, puede llegar a 
+            batir sus alas hasta doscientas veces por segundo. Es la única especie capaz 
+            de volar en todas las direcciones e incluso levitar en el lugar.</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="col s12 m3">
+      <div class="card">
+        <div class="card-image waves-effect waves-block waves-light">
+          <img class="activator" src="aguila.jpg" alt="Aguila">
+        </div>
+        <div class="card-content">
+          <span class="card-title activator grey-text text-darken-4">Aguila<i class="material-icons right">more_vert</i></span>
+        </div>
+        <div class="card-reveal">
+          <span class="card-title grey-text text-darken-4">Aguila<i class="material-icons right">close</i></span>
+          <p>Es la mayor ave depredadora que con sus potentes garras y fuertes músculos 
+            puede atrapar presas de su mismo peso y emprender vuelo. Puede volar hasta a 
+            doscientos kilómetros por hora y, gracias a su excelente visión, puede ver a 
+            su presa desde dos mil metros de distancia. Las hembras tienen un tamaño mayor
+             al de los machos, su tipo de reproducción es monógama y se mantienen juntos 
+             por varios años.</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="col s12 m3">
+      <div class="card">
+        <div class="card-image waves-effect waves-block waves-light">
+          <img class="activator" src="tucan.jpg" alt="Tucan">
+        </div>
+        <div class="card-content">
+          <span class="card-title activator grey-text text-darken-4">Tucan<i class="material-icons right">more_vert</i></span>
+        </div>
+        <div class="card-reveal">
+          <span class="card-title grey-text text-darken-4">Tucan<i class="material-icons right">close</i></span>
+          <p>Es considerada una especie exótica y se destaca por su pico grueso, largo y 
+            colorido, que utiliza para defenderse y para alimentarse de frutas tropicales, 
+            insectos, lagartijas y huevos. Es nativo de zonas tropicales de América y se 
+            caracteriza por ser sedentario y vivir toda su vida en una misma área, es 
+            decir, no es un ave migratoria. Vine en pareja (es monógamo) o en bandadas 
+            de unos seis miembros.</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="col s12 m3">
+      <div class="card">
+        <div class="card-image waves-effect waves-block waves-light">
+          <img class="activator" src="flamenco.jpg" alt="Flamenco">
+        </div>
+        <div class="card-content">
+          <span class="card-title activator grey-text text-darken-4">Flamenco<i class="material-icons right">more_vert</i></span>
+        </div>
+        <div class="card-reveal">
+          <span class="card-title grey-text text-darken-4">Flamenco<i class="material-icons right">close</i></span>
+          <p>Es un ave que se distingue por sus largas patas y por su cuello largo y curvo. 
+            Habita en zonas tropicales, cerca de aguas saladas. El color de su plumaje varía 
+            según la especie, pero predomina el rosado. Se alimenta de algas, larvas, 
+            insectos, crustáceos, moluscos y pequeños peces. Es muy sociable y se comunica 
+            con su misma especie (especialmente con sus crías) mediante sonidos nasales.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+<div class="section" id="carrusel-final" style="background-color: #d6fc8f; padding: 10px;">
+  <h4 class="section-title"><b>GALERIA</b></h4>
+  <div class="carousel">
+    <div class="carousel-item">
+      <img src="lobo.jpg" alt="Lobo">
+      <div class="caption">Lobo</div>
+    </div>
+
+    <div class="carousel-item">
+      <img src="nutria.jpg" alt="nutria">
+      <div class="caption">Nutria</div>
+    </div>
+
+    <div class="carousel-item">
+      <img src="pato.jpg" alt="Pato">
+      <div class="caption">Pato</div>
+    </div>
+
+    <div class="carousel-item">
+      <img src="periquito.jpg" alt="periquito">
+      <div class="caption">Periquito</div>
+    </div>
+
+    <div class="carousel-item">
+      <img src="perro.jpg" alt="Perro">
+      <div class="caption">Perro</div>
+    </div>
+
+    <div class="carousel-item">
+      <img src="pezbeta.jpg" alt="Pezbeta">
+      <div class="caption">Pez Beta</div>
+    </div>
+
+    <div class="carousel-item">
+      <img src="tigre.jpg" alt="tigre">
+      <div class="caption">Tigre</div>
+    </div>
+
+    <div class="carousel-item">
+      <img src="buho.jpg" alt="Buho">
+      <div class="caption">Buho</div>
+    </div>
+
+    <div class="carousel-item">
+      <img src="estrella.jpg" alt="Estrella de Mar">
+      <div class="caption">Estrella de Mar</div>
+    </div>
+
+    <div class="carousel-item">
+      <img src="caballo.jpg" alt="caballo">
+      <div class="caption">Caballo</div>
+    </div>
+
+    <div class="carousel-item">
+      <img src="serpiente.jpg" alt="serpiente">
+      <div class="caption">Serpiente</div>
+    </div>
+
+    <div class="carousel-item">
+      <img src="tiburon.jpg" alt="tiburon">
+      <div class="caption">Tiburon</div>
+    </div>
+
+    <div class="carousel-item">
+      <img src="gato.jpg" alt="gato">
+      <div class="caption">Gato</div>
+    </div>
+  </div>
+</div>
+
+<div class="section" style="background-color: #dce76a; padding: 20px;">
+  <h4 class="section-title">Datos Curiosos</h4>
+  <center><button class="btn btn-custom" onclick="mostrarInfo('gorila')">Gorila</button>
+  <button class="btn btn-custom" onclick="mostrarInfo('jirafa')">Jirafas</button>
+  <button class="btn btn-custom" onclick="mostrarInfo('calamargigante')">Calamar Gigante</button>
+  <button class="btn btn-custom" onclick="mostrarInfo('pulpo')">Pulpo</button>
+  <button class="btn btn-custom" onclick="mostrarInfo('delfinyballena')">Delfín y Ballena</button>
+  <button class="btn btn-custom" onclick="mostrarInfo('cuervo')">Cuervo</button>
+  <button class="btn btn-custom" onclick="mostrarInfo('oso')">Oso</button>
+  <button class="btn btn-custom" onclick="mostrarInfo('gallo')">Gallo</button>
+  <button class="btn btn-custom" onclick="mostrarInfo('mosca')">Mosca</button>
+  <button class="btn btn-custom" onclick="mostrarInfo('canario')">Canario</button>
+</center></div>
+
+<footer class="page-footer blue darken-3" id="contacto">
+  <div class="container">
+    <div class="row">
+      <div class="col s12 center">
+        <h5 class="white-text">Contacto</h5>
+        <p class="grey-text text-lighten-4">Correo: mundo@animal.com</p>
+        <p class="grey-text text-lighten-4">Redes Sociales: Facebook | Instagram | Twitter</p>
+      </div>
+    </div>
+  </div>
+</footer>
+
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+<script>
+document.addEventListener('DOMContentLoaded', function(){
+    var elems = document.querySelectorAll('.carousel');
+    M.Carousel.init(elems, {fullWidth: false, indicators: true});
+});
+
+function mostrarInfo(animal) {
+    const info = {
+        'gorila': 'Gorila: Tienen un ADN muy similar al humano',
+        'jirafa': 'JIrafa:duermen pocas horas diarias',
+        'calamargigante': 'Calamar gigante: Tiene los ojos más grandes del reino animal, pudiendo medir hasta 30 cm de diámetro',
+        'pulpo': 'Pulpo: Tienen tres corazones: dos bombean sangre a las branquias y el tercero la distribuye por el resto del cuerpo. ',
+        'delfinyBallena': 'Delfín y Ballenas: Duermen la mitad de su cerebro a la vez, lo que les permite seguir subiendo a la superficie para respirar y mantenerse alertas. ',
+        'cuervo': 'Cuervo: Los cuervos pueden recordar rostros humanos y distinguir entre quienes los trataron bien o mal. ',
+        'oso': 'Osos: Son en realidad "falsos hibernadores", ya que ralentizan sus funciones vitales, pero no entran en una hibernación profunda como la de las ardillas o las serpientes. ',
+        'gallo': 'Gallo: No necesitan la luz del sol para saber que está amaneciendo. Cuentan con una predisposición genética interna que les indica que se acerca la hora del amanecer, y por eso cantan.',
+        'mosca': 'Mosca: Estos insectos tienen el sentido del gusto ¡en las patas! En ellas se encuentran unas 15000 papilas gustativas.',
+        'canario': 'Canario: Es cierto lo que dicen: el frío congela las ideas. Un 20% de la masa cerebral de esta ave se pierde durante el invierno.',
+    };
+    alert(info[animal]);
+}
+
+</script>
+
+</body>
+</html>
